@@ -1,0 +1,22 @@
+
+"use strict";
+const repeatString = function(string, num) {
+	let stringVar = string;
+	let number = num;
+	let i=0;
+	let result = "";
+	if (num<0) {
+		result = "ERROR";
+	} else {
+		while(i<number) {
+		result+=string;
+		i++;
+		}
+	}
+	return result;
+};
+
+repeatString('hey', 3);
+
+// Do not edit below this line
+module.exports = repeatString;
